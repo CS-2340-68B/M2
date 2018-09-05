@@ -1,5 +1,5 @@
 package edu.gatech.oad.antlab.person;
-
+import java.util.Random;
 /**
  *  A simple class for person 2
  *  returns their name and a
@@ -39,7 +39,7 @@ public class Person2 {
 			index  = generator.nextInt(totalLength);
 			curr = input.charAt(index);
 			sb.append(curr);
-		} while (i != 1);
+		} while (index != 1);
 
 		return sb.toString();
 	}
