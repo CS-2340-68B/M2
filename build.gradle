@@ -17,12 +17,19 @@ plugins {
 // Define the main class for the application
 mainClassName = 'App'
 
+jar {
+    manifest {
+        attributes  'Main-Class' : 'App',
+                    'Implementation-Title' : 'M2'
+    }
+}
+
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
-
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
+    compile fileTree(dir: 'lib', include: ['resources.jar'])
 }
 
 // In this section you declare where to find the dependencies of your project
