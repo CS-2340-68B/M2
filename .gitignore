@@ -1,3 +1,5 @@
 .gradle/
-.idea/workspace
-.idea/workspace.xml
+.idea/
+M2.jar
+.DS_Store
+
