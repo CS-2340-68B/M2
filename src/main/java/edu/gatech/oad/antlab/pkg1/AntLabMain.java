@@ -27,7 +27,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     private AntLab22 ant22;
     
     /**antlab31 java message class which is contained in a jar resource file*/
-//    private AntLab31 ant31;
+    private AntLab31 ant31;
     
     
     
@@ -35,12 +35,12 @@ import edu.gatech.oad.antlab.pkg2.*;
      * the constructor that intializes all the helper classes
      */
     public AntLabMain () {
-        
+
         ant11 = new AntLab11();
         ant12 = new AntLab12();
         ant21 = new AntLab21();
         ant22 = new AntLab22();
-//        ant31 = new AntLab31();
+        ant31 = new AntLab31();
     }
     
     /**
@@ -52,16 +52,15 @@ import edu.gatech.oad.antlab.pkg2.*;
         
         String toPrint = 
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
-          + ant22.getMessage();
-//                    + ant31.getMessage();
+          + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
 		  //and gburdell1 with your gt id
 		  Person1 p1 = new Person1("P1");
 		  toPrint += p1.toString("gburdell1");
 		  //Person2 replace P2 with your name
 		  //and gburdell with your gt id
-		  Person2 p2 = new Person2("P2");
-		  toPrint += p2.toString("gburdell2");
+		  Person2 p2 = new Person2("Thinh");
+		  toPrint += p2.toString("tnguyen452");
 		  //Person3 replace P3 with your name
 		  //and gburdell3 with your gt id
 		  Person3 p3 = new Person3("P3");
