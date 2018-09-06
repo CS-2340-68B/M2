@@ -15,12 +15,14 @@ plugins {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+//mainClassName = 'App'
+mainClassName = 'edu.gatech.oad.antlab.pkg1.AntLabMain'
 
 jar {
     manifest {
-        attributes  'Main-Class' : 'App',
-                    'Implementation-Title' : 'M2'
+        attributes  'Main-Class' : mainClassName,
+                    'Implementation-Title' : 'M2',
+                    'Implementation-Version' : '1.0'
     }
 }
 
@@ -29,6 +31,7 @@ dependencies {
     compile 'com.google.guava:guava:23.0'
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
+    compile files('/lib/resources.jar!/edu/cs2335/antlab/pkg3/AntLab31.class')
     compile fileTree(dir: 'lib', include: ['resources.jar'])
 }
 
@@ -37,4 +40,5 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+//    mavenCentral()
 }
