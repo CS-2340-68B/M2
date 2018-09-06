@@ -33,15 +33,6 @@
     <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
     <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file:///lib/resources.jar!/edu/cs2335/antlab/pkg3/AntLab31.class" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="Gradle: resources">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/resources.jar!/" />
@@ -57,7 +48,6 @@
     <orderEntry type="library" exported="" name="error_prone_annotations-2.0.18" level="project" />
     <orderEntry type="library" exported="" name="j2objc-annotations-1.1" level="project" />
     <orderEntry type="library" exported="" name="animal-sniffer-annotations-1.14" level="project" />
-    <orderEntry type="library" exported="" name="_lib_resources_jar__edu_cs2335_antlab_pkg3_AntLab31_class" level="project" />
     <orderEntry type="library" exported="" name="resources" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
