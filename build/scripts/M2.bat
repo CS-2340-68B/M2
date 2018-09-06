@@ -63,10 +63,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\M2.jar;%APP_HOME%\lib\resources.jar;%APP_HOME%\lib\guava-23.0.jar;%APP_HOME%\lib\jsr305-1.3.9.jar;%APP_HOME%\lib\error_prone_annotations-2.0.18.jar;%APP_HOME%\lib\j2objc-annotations-1.1.jar;%APP_HOME%\lib\animal-sniffer-annotations-1.14.jar
+set CLASSPATH=%APP_HOME%\lib\M2.jar;%APP_HOME%\lib\AntLab31.class;%APP_HOME%\lib\resources.jar;%APP_HOME%\lib\guava-23.0.jar;%APP_HOME%\lib\jsr305-1.3.9.jar;%APP_HOME%\lib\error_prone_annotations-2.0.18.jar;%APP_HOME%\lib\j2objc-annotations-1.1.jar;%APP_HOME%\lib\animal-sniffer-annotations-1.14.jar
 
 @rem Execute M2
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %M2_OPTS%  -classpath "%CLASSPATH%" App %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %M2_OPTS%  -classpath "%CLASSPATH%" edu.gatech.oad.antlab.pkg1.AntLabMain %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

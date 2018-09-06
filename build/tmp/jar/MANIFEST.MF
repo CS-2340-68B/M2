@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
 Implementation-Title: M2
-Main-Class: App
+Implementation-Version: 1.0
+Main-Class: edu.gatech.oad.antlab.pkg1.AntLabMain
 

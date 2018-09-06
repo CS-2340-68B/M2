@@ -44,9 +44,9 @@ public class Person3 {
 	private String calc(String input) {
 	  String reverseStr = "";
 	  int index = input.length();
-	  while (index >= 0) {
-	  	reverseStr += input.charAt(index);
-	  	index -= 1;
+	  while (index > 0) {
+	  	reverseStr += input.charAt(index - 1);
+	  	index--;
 	  }
 	  return reverseStr;
 	}
